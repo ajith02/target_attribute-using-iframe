@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Comme&display=swap" rel="stylesheet">
+    <title>iframe 1</title>
+    <!-- internal css -->
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      div {
+        border: 1px solid rgb(233, 233, 233);
+        margin: 0px 27px;
+        background-color: #fcf6f5ff;
+      }
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+
+      p {
+        margin: 3px;
+        padding: 5px 15px;
+        font-family: 'Comme', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <p style="text-align: center">iframe 1</p>
+    <div style="width: 74%;height: 130px;">
+      <br>
+      <p>
+        <a href="/parent_iframe1.html" target="_parent">1. click (_parent)</a>
+      </p>
+      <p>
+        <a href="/top.html" target="_top">2. click (_top)</a>
+      </p>
+      <p>
+        <a href="/self.html" target="_self">3. click (_self)</a>
+      </p>
+    </div>
+  </body>
+</html>
